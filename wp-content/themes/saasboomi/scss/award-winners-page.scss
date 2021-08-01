@@ -1,0 +1,226 @@
+@import "variable";
+
+body{
+  .award-winners-page{
+    .award-winner-section{
+      padding: 90px 0;
+      .title-row{
+        margin-bottom: 90px;
+        .bact-btn{
+          margin-bottom: 16px;
+          a{
+            display: inline-block;
+            color: $medium_gray2;
+            img{
+              height: 16px;
+              margin-right: 5px;
+              vertical-align: middle;
+              position: relative;
+              top: 6px;
+            }
+          }
+        }
+        img{
+          margin-bottom: 16px;
+        }
+      }
+      .content-row{
+        .card-wrapper{
+          background: $annual_orange_accent1;
+          border-radius: 16px;
+          margin-bottom: 74px;
+          min-height: 268px;
+          a{
+            display: block;
+            .title-wrapper{
+              position: relative;
+
+              .img-blk{
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+              }
+              .content-blk{
+                margin-left: 180px;
+                h2{
+                  margin-bottom: 8px;
+                }
+                h3{
+                  font-family: $mediumFont;
+                  color: rgba(0, 0, 0, 0.5);
+                }
+              }
+
+            }
+            .featured-award-img{
+              border-bottom-right-radius: 16px;
+              position: relative;
+              right: -4px;
+
+            }
+          }
+        }
+      }
+    }
+    .nominees-section{
+      background: #FAFAFA;
+      padding: 90px 0 70px;
+      .title-row{
+        margin-bottom: 50px;
+        h4{
+          color: $medium_gray1;
+        }
+      }
+      .content-row{
+        h5{
+          margin-bottom: 50px;
+        }
+        .nominee-list{
+          margin-bottom: 50px;
+          a{
+            width: 100%;
+            height: 264px;
+            display: block;
+            background: $white;
+            border: 1px solid #DDDDDD;
+            border-radius: 12px;
+            position: relative;
+            margin-bottom: 30px;
+            img{
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
+            }
+          }
+        }
+      }
+    }
+    .related-blogs-section{
+      padding: 90px 0 90px !important;
+    }
+    .scroll-to-top-btn-wrapper{
+      margin-bottom: 80px;
+      a{
+        display: inline-block;
+        padding: 14px 24px 12px;
+        background: #4F4F4F;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12);
+        border-radius: 24px;
+        color: $white;
+      }
+    }
+    .newsletter-section{
+      background: $awards_accent1 !important;
+    }
+  }
+}
+
+//mobile portrait view //
+@media (min-width: 280px) and ( max-width: 767px){
+body {
+  .award-winners-page{
+    .award-winner-section{
+      padding: 50px 0 0;
+      .title-row{
+        margin-bottom: 50px;
+
+      }
+      .content-row{
+        margin-bottom: 50px;
+        .card-wrapper{
+          a{
+            .title-wrapper{
+              text-align: center;
+              padding: 16px;
+              .img-blk{
+                position: relative;
+                left: 8px;
+                top: auto;
+                transform: none;
+                img{
+                  height: 150px;
+                }
+              }
+              .content-blk{
+                margin-left: 0;
+              }
+            }
+            .featured-award-img{
+              right: 0px;
+              padding-left: 16px;
+            }
+          }
+        }
+      }
+    }
+    .nominees-section{
+      background: #FAFAFA;
+      padding: 50px 0;
+      .title-row{
+        margin-bottom: 50px;
+        h4{
+          color: $medium_gray1;
+        }
+      }
+      .content-row{
+        h5{
+          margin-bottom: 50px;
+        }
+        .nominee-list{
+          margin-bottom: 30px;
+          a{
+            height: 150px;
+            img{
+              max-width: 90%;
+            }
+          }
+        }
+      }
+    }
+    .related-blogs-section{
+      padding: 50px 0 100px !important;
+    }
+    .newsletter-section{
+      background: $awards_accent1 !important;
+    }
+  }
+  }
+}
+
+//mobile landscape view //
+
+@media (min-width: 576px) and (max-width: 767px) {
+  body {
+
+  }
+}
+
+//small view//
+@media (min-width: 768px) and (max-width: 991px) {
+  body{
+    .award-winners-page .award-winner-section .content-row .card-wrapper{
+      min-height: 200px;
+    }
+  }
+}
+
+//medium view//
+@media (min-width: 992px) and (max-width: 1199px) {
+body{
+    .award-winners-page .award-winner-section .content-row .card-wrapper{
+      min-height: 225px;
+    }
+  }
+}
+
+//large view//
+@media (min-width: 1200px) {
+  body{
+    .award-winners-page .award-winner-section .content-row .card-wrapper a .featured-award-img{
+      height: 268px;
+      // object-fit: cover;
+    }
+  }
+}

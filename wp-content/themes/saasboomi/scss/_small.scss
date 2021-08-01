@@ -1,0 +1,44 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  body{
+
+    footer{
+      .footer-top{
+        .menu-row{
+          .custom-grid{
+            padding: 0 10px;
+          }
+        }
+      }
+    }
+
+    .announcement{
+      line-height: $lineHeight20;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+    }
+
+    .community-section{
+      h2{
+        margin-bottom: 24px;
+      }
+    }
+
+    .newsletter-section{
+      padding: 50px 0 50px;
+      background: $community_gray !important;
+      .newsletter-wrapper{
+        padding: 40px 16px 24px !important;
+        background: #FBFBFB !important;
+        .bg-img{
+          display: none;
+        }
+        .content-wrapper{
+          padding: 16px !important;
+        }
+      }
+    }
+  }
+}

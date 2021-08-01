@@ -1,0 +1,232 @@
+@import "variable";
+
+body{
+    .community-page{
+        .community-banner-section{
+            padding-top: 0;
+            .left-blk{
+                .pre-title{
+                    a{
+                        color: $enterprise_blue;
+                    }
+                }
+                h1{
+                    margin: 16px 0 32px;
+                }
+            }
+        }
+        .why-section{
+            padding: 90px 0;
+            .section-title{
+                margin-bottom: 48px;
+            }
+            .card-row{
+                .card-item{
+                    border-radius: 16px;
+                    img{
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                    h3{
+                        margin: 24px 0;
+                    }
+                    p{
+
+                    }
+                    ul{
+                        margin-top: 24px;
+                        li{
+                            margin-bottom: 24px;
+                            position: relative;
+                            padding-left: 48px;
+                            padding-top: 6px;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                background-image: url('../img/check_list.svg');
+                                height: 32px;
+                                width: 32px;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                background-position: center;
+                                left: 0;
+                                top: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .join-community-row{
+                margin-top: 104px;
+                .slack-wrpper{
+                    background: #EBF7FE;
+                    border-radius: 16px;
+                    padding: 48px;
+                    .pattern-image{
+                        position: absolute;
+                        left: 16px;
+                        top: 0;
+                        bottom: 0;
+                        height: 100%;
+                    }
+                    .slack-content-block{
+                        position: relative;
+                        padding-left: 212px;
+                        min-height: 142px;
+
+                        .slack-logo{
+                            position: absolute;
+                            left: 16px;
+                            top: 0;
+                        }
+                        h4{
+                            margin: 8px 0 16px;
+                        }
+                    }
+                }
+            }
+        }
+        .members-section{
+            background: rgba(251, 251, 251, 0.8);
+            padding: 90px 0 120px;
+            .section-title{
+                span{
+                    color: $annual_orange;
+                }
+            }
+            .title-row{
+              margin-bottom: 50px;
+            }
+        }
+        .newsletter-section{
+          background: $light_gray2;
+        }
+    }
+}
+
+//mobile portrait view //
+@media (min-width: 280px) and ( max-width: 767px){
+body {
+    .community-page{
+      .community-banner-section{
+        padding-top: 50px;
+        .vedio-blk{
+          .featured-img-blk{
+            transform: none;
+            height: auto !important;
+          }
+        }
+      }
+
+      .why-section{
+          padding: 50px 0;
+          .section-title{
+              margin-bottom: 24px;
+          }
+          .card-row{
+              .card-item{
+                  margin-bottom: 42px;
+                  h3{
+                    margin: 16px 0;
+                  }
+              }
+          }
+          .join-community-row{
+              margin-top: 16px;
+              .slack-wrpper{
+                  padding: 32px 24px;
+                  text-align: center;
+                  .pattern-image{
+                      // position: relative;
+                      display: none;
+                  }
+                  .slack-content-block{
+                      position: relative;
+                      padding-left: 0px;
+                      min-height: auto;
+                      .slack-logo{
+                          position: relative;
+                          left: auto;
+                          height: 100px;
+                          margin-bottom: 16px;
+                      }
+
+                  }
+                  .text-right{
+                    text-align: center !important;
+                    margin-top: 22px;
+                  }
+              }
+          }
+      }
+      .members-section{
+          background: rgba(251, 251, 251, 0.8);
+          padding: 50px 0 120px;
+      }
+    }
+  }
+}
+
+//mobile landscape view //
+
+@media (min-width: 576px) and (max-width: 767px) {
+  body {
+
+  }
+}
+
+//small view//
+@media (min-width: 768px) and (max-width: 991px) {
+  body{
+    .community-page{
+      .why-section{
+        .join-community-row{
+           .slack-wrpper{
+             padding: 48px 32px;
+             .slack-content-block{
+               padding-left: 150px;
+               img{
+                 height: 100px;
+               }
+             }
+           }
+        }
+      }
+    }
+  }
+}
+
+//medium view//
+@media (min-width: 992px) and (max-width: 1199px) {
+body{
+    .community-page{
+      .members-section{
+        .airtable-row{
+          iframe{
+            // width: 80%;
+            // margin: 0 auto;
+            // display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+//large view//
+@media (min-width: 1200px) {
+  body{
+    .community-page{
+      .members-section{
+        .airtable-row{
+          iframe{
+            // width: 80%;
+            // margin: 0 auto;
+            // display: block;
+          }
+        }
+      }
+    }
+  }
+}

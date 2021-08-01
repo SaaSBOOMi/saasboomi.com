@@ -1,0 +1,566 @@
+@import "variable";
+
+body{
+  .about-us-page{
+
+    .about-section{
+      padding: 90px 0;
+      p{
+        margin-bottom: 24px;
+      }
+    }
+
+    .gallery-section{
+      overflow: hidden;
+      // padding: 0 0 90px;
+      .container-fluid{
+        padding: 0;
+      }
+      .gallery-row{
+        img{
+          width: 100%;
+          object-fit: cover;
+          border-radius: 16px;
+          margin-bottom: 24px;
+          position: relative;
+          &.img1{
+            height: 319px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+          }
+          &.img2{
+            height: 385px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+          }
+          &.img3{
+            height: 382px;
+          }
+          &.img4{
+            height: 329px;
+          }
+          &.img5{
+            height: 166px;
+          }
+          &.img6{
+            height: 291px;
+          }
+          &.img7{
+            height: 232px;
+          }
+          &.img8{
+            height: 481px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+          }
+          &.img9{
+            height: 229px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+          }
+        }
+        .event-blk{
+          margin: 0px 50px 0 0;
+          text-align: right;
+          .count{
+            display: block;
+            color: $product_pink;
+            margin: 50px 0 0;
+          }
+        }
+        .color-bar{
+          position: relative;
+          span{
+            border-radius: 10px;
+            height: 8px;
+            width: 48px;
+            background: $annual_orange;
+            display: inline-block;
+          }
+          &.top-bar{
+            top: -8px;
+          }
+          &.bottom-bar{
+            top: -16px;
+          }
+          &.pink-bar{
+            span{
+              background: $product_pink;
+            }
+          }
+          &.blue-bar{
+            span{
+              background: $enterprise_blue;
+            }
+          }
+          &.green-bar{
+            span{
+              background: $growth_green;
+            }
+          }
+        }
+        .grid-blk{
+          padding-left: 12px;
+          padding-right: 12px;
+        }
+      }
+    }
+
+    .beginning-of-our-story-section{
+      padding: 90px 0;
+    }
+
+    .our-story-so-far-section{
+      background: $light_gray;
+      padding: 80px 0 90px;
+      .title-row{
+        margin-bottom: 75px;
+      }
+      .content-row{
+        .month-list{
+          ol{
+            li{
+              &:first-child{
+                a{
+                  // left: 120px !important;
+                }
+              }
+            }
+          }
+        }
+        .timeline-content-wrapper{
+          margin-top: 16px;
+          .content-list{
+            .content-list-item{
+              &.show{
+
+              }
+              .card-wrapper{
+                  background: $product_pink_accent1;
+                  border-radius: 16px;
+                  padding: 40px;
+                .content-blk{
+                  // padding-right: 24px;
+                  h3{
+                    margin-bottom: 12px;
+                    font-style: normal;
+                    &:before{
+                      content: none;
+                    }
+                  }
+                  h2{
+                    margin-bottom: 24px;
+                    color: $black;
+                  }
+                  h4{
+                    margin-bottom: 44px;
+                  }
+                }
+                .img-blk{
+                  text-align: right;
+                  img{
+                    height: 234px;
+                    width: 234px;
+                    object-fit: cover;
+                    border-radius: 16px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .creating-buzz-section{
+      padding: 90px 0 60px;
+      .title-row{
+        margin-bottom: 40px;
+      }
+      .content-row{
+        .card-wrapper{
+          margin-bottom: 24px;
+          border-radius: 16px;
+          display: block;
+          width: 100%;
+          background: $light_gray;
+          .img-blk{
+            position: relative;
+            .featured-img{
+              height: 210px;
+              width: 100%;
+              object-fit: cover;
+              border-radius: 16px;
+              border-bottom-left-radius: 0;
+              border-bottom-right-radius: 0;
+            }
+          }
+          .content-blk{
+            padding: 16px;
+            h3{
+              margin-bottom: 24px;
+            }
+          }
+        }
+      }
+    }
+
+    .saasboomi-team-section{
+      padding: 0px 0 120px;
+      .title-row{
+        margin-bottom: 70px;
+      }
+      .content-row{
+        .team-wrapper{
+          // background: $annual_orange_accent1;
+          padding: 0 80px;
+          position: relative;
+          border-radius: 16px;
+          ul{
+            position: relative;
+            z-index: 99;
+            margin-bottom: -50px;
+            li{
+              width: 20%;
+              margin-bottom: 40px;
+              margin-right: 0;
+              position: relative;
+              img{
+                height: 170px;
+                width: 170px;
+                border-radius: 8px;
+                object-fit: cover;
+                margin-bottom: 4px;
+              }
+              h4{
+                margin-bottom: 4px;
+              }
+              h5{
+                margin-bottom: 4px;
+              }
+              p{
+                color: $medium_gray2;
+              }
+              &:first-child{
+                width: 30%;
+                min-height: 240px;
+                position: relative;
+                h3{
+                  color: $black;
+                  position: absolute;
+                  top: 50%;
+                  left: 10px;
+                }
+              }
+              &:nth-child(4){
+                &:after{
+                  content: url("data:image/svg+xml,%3Csvg width='35' height='25' viewBox='0 0 35 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 25L-2.18557e-07 20L25 20L25 25L0 25ZM-8.30516e-07 6L-1.09278e-06 0L16 -6.99382e-07L16 6L-8.30516e-07 6ZM9 11L9 15L35 15L35 11L9 11ZM29 25L29 20L35 20L35 25L29 25ZM-6.11959e-07 11L-4.37107e-07 15L6 15L6 11L-6.11959e-07 11Z' fill='%23000000'/%3E%3C/svg%3E%0A");
+                  height: 35px;
+                  position: absolute;
+                  top: 20px;
+                  right: 0;
+                }
+              }
+              &:nth-child(5){
+                &:after{
+                  content: url("data:image/svg+xml,%3Csvg width='35' height='25' viewBox='0 0 35 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 25L-2.18557e-07 20L25 20L25 25L0 25ZM-8.30516e-07 6L-1.09278e-06 0L16 -6.99382e-07L16 6L-8.30516e-07 6ZM9 11L9 15L35 15L35 11L9 11ZM29 25L29 20L35 20L35 25L29 25ZM-6.11959e-07 11L-4.37107e-07 15L6 15L6 11L-6.11959e-07 11Z' fill='%23000000'/%3E%3C/svg%3E%0A");
+                  height: 35px;
+                  position: absolute;
+                  top: 20px;
+                  left: -20px;
+                }
+              }
+            }
+          }
+          &.organiser-wrapper{
+             background: $community_gray;
+             position: relative;
+             padding-bottom: 100px;
+             img{
+               &.bg-bottom{
+                 position: absolute;
+                 bottom: -2px;
+                 left: 0;
+                 width: 100%;
+               }
+               &.bg-top{
+                 position: absolute;
+                 right: 0;
+                 top: -2px;
+                 width: 100%;
+               }
+             }
+          }
+          &.volunteer-wrapper{
+            background: $community_gray;
+            position: relative;
+            padding-bottom: 100px;
+            // background-image: url("../img/volunteers_bg.png");
+            img{
+              &.bg-bottom{
+                position: absolute;
+                bottom: -2px;
+                left: 0;
+                width: 100%;
+              }
+              &.bg-top{
+                position: absolute;
+                right: 0;
+                top: -2px;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .newsletter-section{
+      background: $mrr_pink_accent1;
+      padding: 80px 0 60px;
+      .newsletter-wrapper{
+        background: $light_gray2;
+        position: relative;
+        border-radius: 24px;
+        margin-top: -120px;
+        padding: 80px 80px 0;
+        .bg-img{
+          position: absolute;
+          bottom: 0px;
+          left: -65px;
+          border-bottom-left-radius: 24px;
+        }
+        .content-wrapper{
+          padding: 16px 40px 80px 120px;
+          h5{
+            margin-bottom: 24px;
+          }
+          h6{
+            margin-bottom: 16px;
+          }
+          p{
+            a{
+              color: $mrr_pink;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+//mobile portrait view //
+@media (min-width: 280px) and ( max-width: 767px){
+body {
+
+    .about-us-page{
+
+      .about-section{
+        padding: 50px 0;
+      }
+
+      .gallery-section{
+        .past-events-gallery-wrapper{
+          overflow: hidden;
+          .gallery-row{
+            padding: 0 16px;
+            img{
+              height: 160px!important;
+              margin-bottom: 16px !important;
+              border-radius: 16px !important;
+              &.img7{
+                display: none;
+              }
+            }
+            .color-bar{
+              display: none;
+            }
+            .grid-blk{
+              padding-left: 8px;
+              padding-right: 8px;
+              max-width: 50%;
+              flex: 0 0 50%;
+            }
+          }
+        }
+      }
+
+      .beginning-of-our-story-section{
+        padding: 50px 0;
+      }
+
+      .our-story-so-far-section{
+        padding: 50px 0;
+        .title-row{
+          margin-bottom: 40px;
+        }
+        .content-row{
+          .timeline-content-wrapper{
+            .content-list{
+              .content-list-item{
+                padding: 0;
+                .card-wrapper{
+                  max-width: 100%;
+                  padding: 24px 16px;
+                  .img-blk-mobile{
+                    margin-bottom: 24px;
+                    img{
+                      width: 100%;
+                    }
+                  }
+                  .content-blk{
+                    h2{
+                      margin-bottom: 16px;
+                    }
+                  }
+                  .img-blk-desktop{
+                    display: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .creating-buzz-section{
+        padding: 50px 0;
+      }
+
+      .saasboomi-team-section{
+        padding: 10px 0 100px;
+        .container{
+          padding: 0 8px;
+        }
+        .title-row{
+          margin-bottom: 24px;
+        }
+        .content-row{
+          .col-12{
+            padding: 0;
+          }
+          .team-wrapper{
+            padding: 0px;
+            border-radius: 0px;
+            ul{
+              margin-bottom: 0px;
+              padding: 32px 8px;
+              li{
+                width: 50%;
+                margin-bottom: 24px;
+                padding: 0 8px;
+                img{
+                  height: 160px;
+                  width: 160px;
+                }
+                &:first-child{
+                  width: 100%;
+                  min-height: auto;
+                  margin-bottom: 16px;
+                  text-align: center;
+                  h3{
+                    position: relative;
+                    top: auto;
+                    left: auto;
+                  }
+                }
+                &:nth-child(4){
+                  &:after{
+                    content: none !important;
+                  }
+                }
+                &:nth-child(5){
+                  &:after{
+                    content: none !important;
+                  }
+                }
+              }
+            }
+            &.organiser-wrapper{
+               padding-bottom: 0px;
+               img{
+                 &.bg-bottom{
+                   display: none
+                 }
+                 &.bg-top{
+                   display: none
+                 }
+               }
+            }
+            &.volunteer-wrapper{
+              padding-bottom: 0px;
+              ul{
+                padding-top: 0;
+              }
+              img{
+                &.bg-bottom{
+                  display: none
+                }
+                &.bg-top{
+                  display: none
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+  }
+}
+
+//mobile landscape view //
+
+@media (min-width: 576px) and (max-width: 767px) {
+  body {
+
+  }
+}
+
+//small view//
+@media (min-width: 768px) and (max-width: 991px) {
+  body{
+
+    .about-us-page{
+      .saasboomi-team-section{
+        .content-row{
+          .team-wrapper{
+            padding: 60px 60px 0;
+            img{
+              &.bg-top, &.bg-bottom{
+                display: none !important;
+              }
+            }
+            ul{
+              li{
+                width: 33.33%;
+                padding-right: 16px;
+              }
+            }
+            &.organiser-wrapper{
+              margin-bottom: 40px;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+//medium view//
+@media (min-width: 992px) and (max-width: 1199px) {
+body{
+
+  }
+}
+
+//large view//
+@media (min-width: 1200px) {
+  body{
+
+  }
+}

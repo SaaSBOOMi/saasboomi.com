@@ -1,0 +1,1023 @@
+@import "variable";
+
+body{
+  .event-annual-page{
+    &.event-growth-page{
+      .event-banner-section{
+        .left-blk{
+          .registration-content{
+            background: $growth_green_accent1;
+            h2{
+              color: $growth_green;
+            }
+          }
+        }
+        .vedio-blk{
+
+        }
+      }
+
+      .introduction-section{
+
+      }
+
+      .color-bar{
+        span{
+          background: $growth_green;
+        }
+      }
+
+      .about-section{
+        .present-info-wrapper{
+          .store-content-row{
+            .card-wrapper{
+              .img-blk{
+                background: $growth_green_accent1;
+              }
+            }
+          }
+        }
+        .past-info-wrapper{
+          .content-row{
+            .card-wrapper{
+              .img-blk{
+                background: $growth_green_accent1;
+              }
+              .content-blk{
+                h5{
+                  color: $growth_green;
+                }
+              }
+            }
+          }
+        }
+        .past-events-gallery-wrapper{
+          .gallery-row{
+
+          }
+        }
+      }
+
+      .cta-section{
+        .cta-wrapper{
+          background: $growth_green_accent1;
+          h4{
+            color: $growth_green;
+          }
+        }
+      }
+
+      .featured-speakers-section{
+        .content-row{
+          .card-outer-wrapper{
+            .card-wrapper{
+              &:before{
+                background: $growth_green_accent1;
+              }
+            }
+          }
+        }
+      }
+
+      .events-agenda-section{
+        .content-row{
+          .day-list{
+            .day-item{
+              &.active{
+                background: $growth_green_accent1;
+              }
+            }
+          }
+          .content-wrapper{
+            .day-item-content{
+
+            }
+          }
+        }
+      }
+
+      .saasboomi-team-section{
+        .content-row{
+          .team-wrapper{
+            // background: $growth_green_accent1;
+            ul{
+              li{
+                &:first-child{
+                  h3{
+                    color: $growth_green;
+                  }
+                }
+                &:nth-child(4){
+                  &:after{
+                    content: url("data:image/svg+xml,%3Csvg width='35' height='25' viewBox='0 0 35 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 25L-2.18557e-07 20L25 20L25 25L0 25ZM-8.30516e-07 6L-1.09278e-06 0L16 -6.99382e-07L16 6L-8.30516e-07 6ZM9 11L9 15L35 15L35 11L9 11ZM29 25L29 20L35 20L35 25L29 25ZM-6.11959e-07 11L-4.37107e-07 15L6 15L6 11L-6.11959e-07 11Z' fill='%2300CD92'/%3E%3C/svg%3E%0A");
+                  }
+                }
+                &:nth-child(5){
+                  &:after{
+                    content: url("data:image/svg+xml,%3Csvg width='35' height='25' viewBox='0 0 35 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 25L-2.18557e-07 20L25 20L25 25L0 25ZM-8.30516e-07 6L-1.09278e-06 0L16 -6.99382e-07L16 6L-8.30516e-07 6ZM9 11L9 15L35 15L35 11L9 11ZM29 25L29 20L35 20L35 25L29 25ZM-6.11959e-07 11L-4.37107e-07 15L6 15L6 11L-6.11959e-07 11Z' fill='%2300CD92'/%3E%3C/svg%3E%0A");
+                  }
+                }
+              }
+            }
+            &.organiser-wrapper{
+               background: $growth_green_accent1;
+            }
+            &.volunteer-wrapper{
+              background: $growth_green_accent1;
+            }
+          }
+        }
+      }
+
+      .community-section{
+        background-image: url('../img/growth_testimonial_bg.png');
+        .right-blk{
+          .community-feed-wrapper{
+            padding: 50px 0;
+            .owl-nav{
+              button{
+                background: $growth_green_accent1;
+              }
+            }
+          }
+        }
+      }
+
+      .past-events-section{
+        .content-row{
+          .card-wrapper{
+            background: $growth_green_accent1;
+            border-radius: 16px;
+            margin-bottom: 30px;
+          }
+        }
+      }
+
+      .newsletter-section{
+        background: $growth_green_accent1;
+      }
+
+      .stay-updated-section{
+        .stay-updated-wrapper{
+          background: $growth_green_accent1;
+        }
+        .form-submission-status{
+          position: absolute;
+          left: 125px;
+          top: 11px;
+          color: $growth_green;
+        }
+      }
+    }
+
+    &.event-build-page{
+      .event-banner-section{
+        .left-blk{
+          .registration-content{
+            background: $build_red_accent1;
+            h2{
+              color: $build_red;
+            }
+          }
+        }
+        .vedio-blk{
+
+        }
+      }
+
+      .introduction-section{
+
+      }
+
+      .color-bar{
+        span{
+          background: $build_red;
+        }
+      }
+
+      .about-section{
+        .present-info-wrapper{
+          .store-content-row{
+            .card-wrapper{
+              .img-blk{
+                background: $build_red_accent1;
+              }
+            }
+          }
+        }
+        .past-info-wrapper{
+          .content-row{
+            .card-wrapper{
+              .img-blk{
+                background: $build_red_accent1;
+              }
+              .content-blk{
+                h5{
+                  color: $build_red;
+                }
+              }
+            }
+          }
+        }
+        .past-events-gallery-wrapper{
+          .gallery-row{
+
+          }
+        }
+      }
+
+      .cta-section{
+        .cta-wrapper{
+          background: $build_red_accent1;
+          h4{
+            color: $build_red;
+          }
+        }
+      }
+
+      .featured-speakers-section{
+        .content-row{
+          .card-outer-wrapper{
+            .card-wrapper{
+              &:before{
+                background: $build_red_accent1;
+              }
+            }
+          }
+        }
+      }
+
+
+      .events-agenda-section{
+        .content-row{
+          .day-list{
+            .day-item{
+              &.active{
+                background: $build_red_accent1;
+              }
+            }
+          }
+          .content-wrapper{
+            .day-item-content{
+
+            }
+          }
+        }
+      }
+
+      .saasboomi-team-section{
+        .content-row{
+          .team-wrapper{
+            // background: $build_red_accent1;
+            ul{
+              li{
+                &:first-child{
+                  h3{
+                    color: $build_red;
+                  }
+                }
+                &:nth-child(4){
+                  &:after{
+                    content: url("data:image/svg+xml,%3Csvg width='35' height='25' viewBox='0 0 35 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 25L-2.18557e-07 20L25 20L25 25L0 25ZM-8.30516e-07 6L-1.09278e-06 0L16 -6.99382e-07L16 6L-8.30516e-07 6ZM9 11L9 15L35 15L35 11L9 11ZM29 25L29 20L35 20L35 25L29 25ZM-6.11959e-07 11L-4.37107e-07 15L6 15L6 11L-6.11959e-07 11Z' fill='%23FF5860'/%3E%3C/svg%3E%0A");
+                  }
+                }
+                &:nth-child(5){
+                  &:after{
+                    content: url("data:image/svg+xml,%3Csvg width='35' height='25' viewBox='0 0 35 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 25L-2.18557e-07 20L25 20L25 25L0 25ZM-8.30516e-07 6L-1.09278e-06 0L16 -6.99382e-07L16 6L-8.30516e-07 6ZM9 11L9 15L35 15L35 11L9 11ZM29 25L29 20L35 20L35 25L29 25ZM-6.11959e-07 11L-4.37107e-07 15L6 15L6 11L-6.11959e-07 11Z' fill='%23FF5860'/%3E%3C/svg%3E%0A");
+                  }
+                }
+              }
+            }
+            &.organiser-wrapper{
+               background: $build_red_accent1;
+            }
+            &.volunteer-wrapper{
+              background: $build_red_accent1;
+            }
+          }
+        }
+      }
+
+      .community-section{
+        background-image: url('../img/build_testimonial_bg.png');
+        .right-blk{
+          .community-feed-wrapper{
+            padding: 50px 0;
+            .owl-nav{
+              button{
+                background: $build_red_accent1;
+              }
+            }
+          }
+        }
+      }
+
+      .past-events-section{
+        .content-row{
+          .card-wrapper{
+            background: $build_red_accent1;
+            border-radius: 16px;
+            margin-bottom: 30px;
+          }
+        }
+      }
+
+      .newsletter-section{
+        background: $build_red_accent1;
+      }
+
+      .stay-updated-section{
+        .stay-updated-wrapper{
+          background: $build_red_accent1;
+        }
+      }
+    }
+
+    &.event-enterprise-page{
+      .event-banner-section{
+        .left-blk{
+          .registration-content{
+            background: $enterprise_blue_accent1;
+            h2{
+              color: $enterprise_blue;
+            }
+          }
+        }
+        .vedio-blk{
+
+        }
+      }
+
+      .introduction-section{
+
+      }
+
+      .color-bar{
+        span{
+          background: $enterprise_blue;
+        }
+      }
+
+      .about-section{
+        .present-info-wrapper{
+          .store-content-row{
+            .card-wrapper{
+              .img-blk{
+                background: $enterprise_blue_accent1;
+              }
+            }
+          }
+        }
+        .past-info-wrapper{
+          .content-row{
+            .card-wrapper{
+              .img-blk{
+                background: $enterprise_blue_accent1;
+              }
+              .content-blk{
+                h5{
+                  color: $enterprise_blue;
+                }
+              }
+            }
+          }
+        }
+        .past-events-gallery-wrapper{
+          .gallery-row{
+
+          }
+        }
+      }
+
+      .cta-section{
+        .cta-wrapper{
+          background: $enterprise_blue_accent1;
+          h4{
+            color: $enterprise_blue;
+          }
+        }
+      }
+
+      .featured-speakers-section{
+        .content-row{
+          .card-outer-wrapper{
+            .card-wrapper{
+              &:before{
+                background: $enterprise_blue_accent1;
+              }
+            }
+          }
+        }
+      }
+
+      .events-agenda-section{
+        .content-row{
+          .day-list{
+            .day-item{
+              &.active{
+                background: $enterprise_blue_accent1;
+              }
+            }
+          }
+          .content-wrapper{
+            .day-item-content{
+
+            }
+          }
+        }
+      }
+
+      .saasboomi-team-section{
+        .content-row{
+          .team-wrapper{
+            // background: $enterprise_blue_accent1;
+            ul{
+              li{
+                &:first-child{
+                  h3{
+                    color: $enterprise_blue;
+                  }
+                }
+                &:nth-child(4){
+                  &:after{
+                    content: url("data:image/svg+xml,%3Csvg width='35' height='25' viewBox='0 0 35 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 25L-2.18557e-07 20L25 20L25 25L0 25ZM-8.30516e-07 6L-1.09278e-06 0L16 -6.99382e-07L16 6L-8.30516e-07 6ZM9 11L9 15L35 15L35 11L9 11ZM29 25L29 20L35 20L35 25L29 25ZM-6.11959e-07 11L-4.37107e-07 15L6 15L6 11L-6.11959e-07 11Z' fill='%2343AFF9'/%3E%3C/svg%3E%0A");
+                  }
+                }
+                &:nth-child(5){
+                  &:after{
+                    content: url("data:image/svg+xml,%3Csvg width='35' height='25' viewBox='0 0 35 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 25L-2.18557e-07 20L25 20L25 25L0 25ZM-8.30516e-07 6L-1.09278e-06 0L16 -6.99382e-07L16 6L-8.30516e-07 6ZM9 11L9 15L35 15L35 11L9 11ZM29 25L29 20L35 20L35 25L29 25ZM-6.11959e-07 11L-4.37107e-07 15L6 15L6 11L-6.11959e-07 11Z' fill='%2343AFF9'/%3E%3C/svg%3E%0A");
+                  }
+                }
+              }
+            }
+            &.organiser-wrapper{
+               background: $enterprise_blue_accent1;
+            }
+            &.volunteer-wrapper{
+              background: $enterprise_blue_accent1;
+            }
+          }
+        }
+      }
+
+      .community-section{
+        background-image: url('../img/enterprise_testimonial_bg.png');
+        .right-blk{
+          .community-feed-wrapper{
+            padding: 50px 0;
+            .owl-nav{
+              button{
+                background: $enterprise_blue_accent1;
+              }
+            }
+          }
+        }
+      }
+
+      .past-events-section{
+        .content-row{
+          .card-wrapper{
+            background: $enterprise_blue_accent1;
+            border-radius: 16px;
+            margin-bottom: 30px;
+          }
+        }
+      }
+
+      .newsletter-section{
+        background: $enterprise_blue_accent1;
+      }
+
+      .stay-updated-section{
+        .stay-updated-wrapper{
+          background: $enterprise_blue_accent1;
+        }
+      }
+    }
+
+    &.event-product-page{
+      .event-banner-section{
+        .left-blk{
+          .registration-content{
+            background: $product_pink_accent1;
+            h2{
+              color: $product_pink;
+            }
+          }
+        }
+        .vedio-blk{
+
+        }
+      }
+
+      .introduction-section{
+
+      }
+
+      .color-bar{
+        span{
+          background: $product_pink;
+        }
+      }
+
+      .about-section{
+        .present-info-wrapper{
+          .store-content-row{
+            .card-wrapper{
+              .img-blk{
+                background: $product_pink_accent1;
+              }
+            }
+          }
+        }
+        .past-info-wrapper{
+          .content-row{
+            .card-wrapper{
+              .img-blk{
+                background: $product_pink_accent1;
+              }
+              .content-blk{
+                h5{
+                  color: $product_pink;
+                }
+              }
+            }
+          }
+        }
+        .past-events-gallery-wrapper{
+          .gallery-row{
+
+          }
+        }
+      }
+
+      .cta-section{
+        .cta-wrapper{
+          background: $product_pink_accent1;
+          h4{
+            color: $product_pink;
+          }
+        }
+      }
+
+      .featured-speakers-section{
+        .content-row{
+          .card-outer-wrapper{
+            .card-wrapper{
+              &:before{
+                background: $product_pink_accent1;
+              }
+            }
+          }
+        }
+      }
+
+      .events-agenda-section{
+        .content-row{
+          .day-list{
+            .day-item{
+              &.active{
+                background: $product_pink_accent1;
+              }
+            }
+          }
+          .content-wrapper{
+            .day-item-content{
+              &:first-child{
+                .day-item-content-visible{
+                  // display: none;
+                }
+                .day-item-content-hidden{
+                  // display: block !important;
+                }
+              }
+              &.show-active{
+                &:first-child{
+                  .day-item-content-visible{
+                    display: none;
+                  }
+                  .day-item-content-hidden{
+                    display: block !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .saasboomi-team-section{
+        padding: 90px 0 0px;
+        .content-row{
+          .team-wrapper{
+            // background: $product_pink_accent1;
+            ul{
+              li{
+                &:first-child{
+                  h3{
+                    color: $product_pink;
+                  }
+                }
+                &:nth-child(4){
+                  &:after{
+                    content: url("data:image/svg+xml,%3Csvg width='35' height='25' viewBox='0 0 35 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 25L-2.18557e-07 20L25 20L25 25L0 25ZM-8.30516e-07 6L-1.09278e-06 0L16 -6.99382e-07L16 6L-8.30516e-07 6ZM9 11L9 15L35 15L35 11L9 11ZM29 25L29 20L35 20L35 25L29 25ZM-6.11959e-07 11L-4.37107e-07 15L6 15L6 11L-6.11959e-07 11Z' fill='%23FF6699'/%3E%3C/svg%3E%0A");
+                  }
+                }
+                &:nth-child(5){
+                  &:after{
+                    content: url("data:image/svg+xml,%3Csvg width='35' height='25' viewBox='0 0 35 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 25L-2.18557e-07 20L25 20L25 25L0 25ZM-8.30516e-07 6L-1.09278e-06 0L16 -6.99382e-07L16 6L-8.30516e-07 6ZM9 11L9 15L35 15L35 11L9 11ZM29 25L29 20L35 20L35 25L29 25ZM-6.11959e-07 11L-4.37107e-07 15L6 15L6 11L-6.11959e-07 11Z' fill='%23FF6699'/%3E%3C/svg%3E%0A");
+                  }
+                }
+              }
+            }
+            &.organiser-wrapper{
+               background: $product_pink_accent1;
+            }
+            &.volunteer-wrapper{
+              background: $product_pink_accent1;
+            }
+          }
+        }
+      }
+
+      .community-section{
+        background-image: url('../img/product_testimonial_bg.png ');
+        .right-blk{
+          .community-feed-wrapper{
+            padding: 50px 0;
+            .owl-nav{
+              button{
+                background: $product_pink_accent1;
+              }
+            }
+          }
+        }
+      }
+
+      .past-events-section{
+        .content-row{
+          .card-wrapper{
+            background: $product_pink_accent1;
+            border-radius: 16px;
+            margin-bottom: 30px;
+          }
+        }
+      }
+
+      .newsletter-section{
+        background: $product_pink_accent1;
+      }
+
+      .stay-updated-section{
+        .stay-updated-wrapper{
+          background: $product_pink_accent1;
+        }
+      }
+    }
+
+    &.playbook-page{
+      .event-banner-section{
+        .left-blk{
+          .registration-content{
+            background: $playbook_violet_accent1;
+            h2{
+              color: $playbook_violet;
+            }
+          }
+        }
+        .vedio-blk{
+
+        }
+      }
+
+      .introduction-section{
+
+      }
+
+      .color-bar{
+        span{
+          background: $playbook_violet;
+        }
+      }
+
+      .about-section{
+        .present-info-wrapper{
+          .store-content-row{
+            .card-wrapper{
+              .img-blk{
+                height: 48px;
+                width: 48px;
+                background: $playbook_violet_accent1;
+                svg{
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%, -50%);
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .playbook-speakers-section{
+        .title-row{
+          margin-bottom: 40px;
+        }
+        .content-row{
+          .card-outer-wrapper{
+            .card-wrapper{
+              display: block;
+              width: 100%;
+              margin-bottom: 30px;
+              .img-blk{
+                img{
+                  height: 264px;
+                  width: 264px;
+                  object-fit: cover;
+                  border-radius: 8px;
+                  position: relative;
+                  z-index: 99;
+                }
+                &:before{
+                  position: absolute;
+                  height: 150px;
+                  width: 150px;
+                  background: $playbook_violet_accent1;
+                  border-radius: 8px;
+                  z-index: 0;
+                }
+              }
+              .content-blk{
+                h5{
+                  margin-bottom: 4px;
+                }
+                h6{
+                  margin-bottom: 16px;
+                }
+              }
+            }
+            &:nth-child(odd){
+              .card-wrapper{
+                .img-blk{
+                  &:before{
+                    content: '';
+                    right: -85px;
+                    transform: rotate(40deg);
+                    top: 55px;
+                  }
+                }
+              }
+            }
+            &:nth-child(even){
+              .card-wrapper{
+                .img-blk{
+                  &:before{
+                    content: '';
+                    right: -85px;
+                    transform: rotate(76deg);
+                    top: 55px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .cta-section{
+        padding: 60px 0 90px;
+        .cta-wrapper{
+          background: $playbook_violet_accent1;
+          h4{
+            color: $playbook_violet;
+          }
+        }
+      }
+
+      .community-section{
+        background-image: url('../img/playbook_testimonial_bg.png');
+        .right-blk{
+          .community-feed-wrapper{
+            padding: 50px 0;
+            .owl-nav{
+              button{
+                background: $playbook_violet_accent1;
+              }
+            }
+          }
+        }
+      }
+
+      .related-blogs-section{
+        padding: 90px 0 120px;
+      }
+
+      .newsletter-section{
+        background: $playbook_violet_accent1;
+      }
+
+      .stay-updated-section{
+        .stay-updated-wrapper{
+          background: $playbook_violet_accent1;
+        }
+      }
+    }
+
+  }
+}
+
+//mobile portrait view //
+@media (min-width: 280px) and ( max-width: 767px){
+body {
+
+    .event-annual-page{
+      &.event-growth-page{
+        .community-section{
+          padding: 50px 0 20px;
+          .right-blk{
+            .community-feed-wrapper{
+              padding: 20px 0 30px;
+            }
+          }
+        }
+      }
+      &.event-enterprise-page{
+        .cta-section{
+          padding: 0 0 50px;
+        }
+        .community-section{
+          padding: 50px 0 20px;
+          .right-blk{
+            .community-feed-wrapper{
+              padding: 20px 0 30px;
+            }
+          }
+        }
+      }
+      &.event-build-page{
+        .community-section{
+          padding: 50px 0 20px;
+          .right-blk{
+            .community-feed-wrapper{
+              padding: 20px 0 30px;
+            }
+          }
+        }
+      }
+      &.event-product-page{
+        .community-section{
+          padding: 50px 0 20px;
+          .right-blk{
+            .community-feed-wrapper{
+              padding: 20px 0 30px;
+            }
+          }
+        }
+      }
+      &.playbook-page{
+        .event-banner-section{
+          .vedio-blk{
+            .featured-img-blk{
+              transform: none;
+              height: auto !important;
+            }
+          }
+        }
+
+        .introduction-section{
+          padding: 24px 0 0;
+        }
+
+        .color-bar{
+          span{
+          }
+        }
+
+        .about-section{
+          .present-info-wrapper{
+            // text-align: center;
+            .store-content-row{
+              .card-wrapper{
+                .img-blk{
+                  height: 48px;
+                  width: 48px;
+                  svg{
+
+                  }
+                }
+                .content-blk{
+                  text-align: left;
+                  h5,p{
+                    margin-left: 60px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .playbook-speakers-section{
+          .title-row{
+            margin-bottom: 24px;
+          }
+          .content-row{
+            .card-outer-wrapper{
+              .card-wrapper{
+                margin-bottom: 30px;
+                .img-blk{
+                  margin-bottom: 4px;
+                  img{
+                    height: 160px;
+                    width: 160px;
+                  }
+                  &:before{
+                    content: none;
+                  }
+                }
+                .content-blk{
+                  h6{
+                    margin-bottom: 8px;
+                  }
+                  p{
+                    font-size: $font12;
+                    line-height: $lineHeight20;
+                  }
+                }
+              }
+              &:nth-child(odd){
+                .card-wrapper{
+                  .img-blk{
+                    &:before{
+                      content: none;
+                    }
+                  }
+                }
+              }
+              &:nth-child(even){
+                .card-wrapper{
+                  .img-blk{
+                    &:before{
+                      content: none;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .cta-section{
+          padding: 30px 0 50px;
+          .cta-wrapper{
+            h4{
+            }
+          }
+        }
+
+        .community-section{
+          padding: 50px 0 20px;
+          .right-blk{
+            .community-feed-wrapper{
+              padding: 20px 0 30px;
+            }
+          }
+        }
+
+        .related-blogs-section{
+          padding: 50px 0 120px;
+        }
+      }
+    }
+
+  }
+}
+
+//mobile landscape view //
+
+@media (min-width: 576px) and (max-width: 767px) {
+  body {
+
+  }
+}
+
+//small view//
+@media (min-width: 768px) and (max-width: 991px) {
+  body{
+
+  }
+}
+
+//medium view//
+@media (min-width: 992px) and (max-width: 1199px) {
+body{
+
+  }
+}
+
+//large view//
+@media (min-width: 1200px) {
+  body{
+
+  }
+}

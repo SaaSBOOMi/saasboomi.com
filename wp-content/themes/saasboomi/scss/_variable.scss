@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'okta_neue_light';
+  src: url('../fonts/okta_neue/OktaNeue_Light.otf'),
+  url('../fonts/okta_neue/OktaNeue_Light.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'okta_neue_regular';
+  src: url('../fonts/okta_neue/OktaNeue_Regular.otf'),
+  url('../fonts/okta_neue/OktaNeue_Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'okta_neue_medium';
+  src: url('../fonts/okta_neue/OktaNeue_Medium.otf'),
+  url('../fonts/okta_neue/OktaNeue_Medium.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'okta_neue_bold';
+  src: url('../fonts/okta_neue/OktaNeue_Bold.otf'),
+  url('../fonts/okta_neue/OktaNeue_Bold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$lightFont: 'okta_neue_light';
+$regularFont: 'okta_neue_regular';
+$mediumFont: 'okta_neue_medium';
+$boldFont: 'okta_neue_bold';
+
+$black: #000000;
+$white: #FFFFFF;
+$build_red: #FF5860;
+$build_red_accent1: #FFF0F0;
+$playbook_violet: #9996FF;
+$playbook_violet_accent1: #F0F0FF;
+$community_gray: #F4F4F4;
+$growth_green: #00CD92;
+$growth_green_accent1: #F0FFFB;
+$enterprise_blue: #43AFF9;
+$enterprise_blue_accent1: #EBF7FE;
+$annual_orange: #FF9200;
+$annual_orange_accent1: #FFF2E0;
+$product_pink: #FF6699;
+$product_pink_accent1: #FFF0F5;
+$debt_fund: #AAF2ED;
+$debt_fund_accent1: #E4FBF9;
+$debt_fund_accent2: #1CB5AB;
+$awards: #BDD7F2;
+$awards_accent1: #F2F7FC;
+$awards_accent2: #6AA5E2;
+$growthx: #CCF0BE;
+$growthx_accent1: #EFFAEA;
+$growthx_accent2: #98AD90;
+$podcast_yellow: #FBB14B;
+$podcast_yellow_accent1: #FFF3E0;
+$podcast_yellow_accent2: #AB7429;
+$mrr_pink: #D192CB;
+$mrr_pink_accent1: #F6E9F5;
+$blog_peach: #FF8E92;
+$blog_peach_accent1: #FFE0E1;
+$saathi: #F2D9AA;
+$saathi_accent1: #FBF3E4;
+$saathi_accent2: #BAA886;
+$suraksha: #EFC8BB;
+$suraksha_accent1: #F9EBE6;
+$suraksha_accent2: #DC876A;
+$background_grey: #CCCCCC;
+$disabled: #808080;
+$dark_gray1: #333333;
+$dark_gray2: #474747;
+$medium_gray1: #999999;
+$medium_gray2: #666666;
+$light_gray: #FBFBFB;
+$light_gray2: #F2F2F2;
+
+$font40: 40px;
+$font32: 32px;
+$font24: 24px;
+$font18: 18px;
+$font16: 16px;
+$font14: 14px;
+$font12: 12px;
+$font10: 10px;
+$font8: 8px;
+
+$lineHeight50: 50px;
+$lineHeight40: 40px;
+$lineHeight30: 30px;
+$lineHeight28: 28px;
+$lineHeight26: 26px;
+$lineHeight24: 24px;
+$lineHeight22: 22px;
+$lineHeight21: 21px;
+$lineHeight20: 20px;
+$lineHeight18: 18px;
+$lineHeight16: 16px;
+$lineHeight14: 14px;
+$lineHeight12: 12px;
+
+@mixin fontStyle($fontFamily: null, $size: null, $weight: null, $color: null,  $lineHeight: null){
+  @if $fontFamily != null {
+    font-family: $fontFamily;
+  }
+  @if $size != null {
+    font-size: $size;
+  }
+  @if $weight != null {
+    font-weight: $weight;
+  }
+  @if $color != null {
+    color: $color;
+  }
+  @if $lineHeight != null {
+    line-height: $lineHeight;
+  }
+}
+
+@mixin transitionForAll($time: 0.3s,$transProp: ease){
+  -webkit-transition: all $time $transProp;
+  -moz-transition: all $time $transProp;
+  -o-transition: all $time $transProp;
+  transition: all $time $transProp;
+  transition: all $time $transProp;
+}
+
+
+$breakpoints: (
+  xs: 32rem, // ~512px
+  sm: 48rem, // ~768px
+  md: 64rem, // ~1024px
+  lg: 80rem, // ~1280px
+  xl: 90rem  // ~1440px
+) !default;
+
+@mixin breakpoint($breakpoint, $logic: false) {
+  @if( $logic ) {
+    @media #{$logic} and (min-width: map-get($map: $breakpoints, $key: $breakpoint)) { @content; }
+  } @else {
+    @media (min-width: map-get($map: $breakpoints, $key: $breakpoint)) { @content; }
+  }
+}

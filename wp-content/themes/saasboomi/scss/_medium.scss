@@ -1,0 +1,25 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+body{
+    .primary-header{
+      .header-top{
+        ul{
+           li{
+             margin: 0;
+             a{
+               padding: 22px 8px;
+             }
+           }
+        }
+      }
+    }
+    footer{
+      .footer-top{
+        .menu-row{
+          .custom-grid{
+            padding: 0 8px;
+          }
+        }
+      }
+    }
+  }
+}
